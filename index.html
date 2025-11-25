@@ -154,4 +154,113 @@
         font-size: 12px;
         color: #9ca3af;
       }
-    </st
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Yuchi 的個人網站</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero 區塊 -->
+      <section class="hero">
+        <h1 class="hero-title">Hi, 我是 Yuchi (Yuki) 👋</h1>
+        <p class="hero-subtitle">
+          NYCU 資工所 / 喜歡把 <b>AI、Embedded、System</b> 接在一起，做成真的產品。<br />
+          做過 Deepfake Speech Detection、IoT 寵物偵測、防詐通話模擬器，也在準備海外實習。
+        </p>
+        <p class="hero-small">
+          這個網站是我的實驗場：GitHub Pages + Supabase + Database + 一點前端。<br />
+          把研究、side project、比賽作品慢慢整理成可以丟連結給別人的作品集。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="projects.html">查看專案 Projects</a>
+          <a class="btn btn-secondary" href="about.html">關於我 About</a>
+        </div>
+      </section>
+
+      <!-- 目前在做什麼 -->
+      <section class="section">
+        <h2>目前在做什麼 🔧</h2>
+        <p>這個網站目前主要用來：</p>
+        <ul class="list">
+          <li>用 GitHub Pages 部署個人網站，當作之後投實習時的作品集入口</li>
+          <li>用 Supabase + PostgreSQL 當後端資料庫，練習從前端直接讀寫資料</li>
+          <li>把研究 / 專案（Deepfake、Fraud Monitor、IoT 專題）整理成 Projects 卡片</li>
+        </ul>
+        <p>接下來會慢慢加上：</p>
+        <ul class="list">
+          <li>Projects：從資料庫讀出的動態專案列表（實習、研究、比賽）</li>
+          <li>Blog / Notes：記錄技術筆記、實驗心得與面試準備</li>
+          <li>可能的留言板或小工具 Demo（例如：簡易 LLM / RAG Demo）</li>
+        </ul>
+      </section>
+
+      <!-- 研究 / 專案亮點 -->
+      <section class="section">
+        <h2>研究 / 專案亮點 🧪</h2>
+        <p>過去比較有代表性的題目：</p>
+        <ul class="list">
+          <li>
+            <b>Robust Deepfake Speech Detection</b>：<br />
+            結合 SinConv + Res2Net 的 end-to-end 模型，針對不同通道效果與平台做
+            Deepfake 語音偵測，使用 Python / PyTorch / CUDA，並做多平台部署。
+          </li>
+          <li>
+            <b>Fraud Monitor / 防詐通話模擬器</b>：<br />
+            以 WebSocket + Flask + NLP 分析通話內容風險，<br />
+            即時顯示「詐騙風險分數」、跳出緊急聯絡人與防詐宣導內容。
+          </li>
+          <li>
+            <b>Edge / IoT 寵物照護專題</b>：<br />
+            使用 HUB 8735、DHT11、OLED、BLE、LoRa、MQTT，<br />
+            搭配輕量化 YOLOv5 Lite 進行影像偵測，做低功耗遠端監控。
+          </li>
+        </ul>
+      </section>
+
+      <!-- 技能 / 興趣 -->
+      <section class="section">
+        <h2>主修路線 & 技能堆疊 💡</h2>
+        <p>目前主要在鑽研：</p>
+        <div class="tag-row">
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Generative AI</span>
+          <span class="tag">LLM / RAG</span>
+          <span class="tag">Supabase / PostgreSQL</span>
+          <span class="tag">Python</span>
+          <span class="tag">C++</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Embedded / IoT</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Git / GitHub</span>
+        </div>
+        <p style="margin-top: 10px">
+          會把課堂專題、研究題目、比賽作品整理成 Project 卡片，讓「我會什麼」變成看得到的東西，
+          也方便未來投實習 / 工作時直接附上連結。
+        </p>
+      </section>
+
+      <!-- 實習 & 職涯目標 -->
+      <section class="section">
+        <h2>實習 & 職涯目標 🎯</h2>
+        <p>現在在努力的方向：</p>
+        <ul class="list">
+          <li>準備海外實習（例如 Google SWE Intern）與台灣科技業 / IC / EDA 相關職缺</li>
+          <li>累積「AI + System + Embedded」的系統層實作經驗，而不是只停在模型本身</li>
+          <li>把實驗室研究、side projects、實務經驗整理成可閱讀、可 demo 的作品集</li>
+        </ul>
+        <p>
+          簡單說：這個網站就是把「履歷上的文字」變成「可以直接點開看的東西」的地方。
+        </p>
+      </section>
+    </main>
+
+    <footer>© 2025 Yuchi Lin. Powered by GitHub Pages + Supabase.</footer>
+  </body>
+</html>
