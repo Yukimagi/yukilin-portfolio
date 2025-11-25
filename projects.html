@@ -138,8 +138,10 @@
 
       // 2️⃣ 填入你自己的 Supabase 專案資訊
       // 在 Supabase 專案 → Project Settings → API 裡面可以找到
+      //Project URL 是否是 https://pcytjsoyleszztqxvozb.supabase.co
+      //anon public key 是否跟你貼的這串一樣
       const supabaseUrl = "https://pcytjsoyleszztqxvozb.supabase.co"; // <-- 改這個(找project id)
-      const supabaseAnonKey = "sb_publishable_vN5lo7GjWUmZb90l95T_hw_FJ-Y7mlQ"; // <-- 再改這個(找api key)
+      const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjeXRqc295bGVzenp0cXh2b3piIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQwNTc1NTYsImV4cCI6MjA3OTYzMzU1Nn0.eUQkK35TB1db8N2pPyDjW3YKSXFdzk0xMO3MhS8X2pk"; // <-- 再改這個(找api key)
 
       const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
